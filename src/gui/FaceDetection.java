@@ -50,6 +50,8 @@ public class FaceDetection extends javax.swing.JFrame {
 
         protected volatile boolean runnable = false;
 
+		
+		
         @Override
         public void run() {
             synchronized (this) {
